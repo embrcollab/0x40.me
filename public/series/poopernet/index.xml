@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>poopernet on Cameron Hall</title>
+    <link>https://pooper.net.au/series/poopernet/</link>
+    <description>Recent content in poopernet on Cameron Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 10 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://pooper.net.au/series/poopernet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://pooper.net.au/about/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://pooper.net.au/about/</guid>
+      <description>About me Hey there,
+My name is Cam.
+Here&amp;rsquo;s a stream of consciousness and a little about what lead me to IT.
+I spent a lot of time doing very hard manual labour in some pretty average places, the best being a stint in a heat treatment plant. I was tasked, with my friend Tomas, to restore an old steel quenching furnace. This is the process of cooking steel at 900 degrees, and then dropping it into hot oil.</description>
+    </item>
+    
+  </channel>
+</rss>
