@@ -109,4 +109,4 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "login"
     name       = "Login"
-    url        = "https://secure.pooper.net.au"
+    url        = "https://secure.pnet.app"
