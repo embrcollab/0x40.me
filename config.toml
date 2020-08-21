@@ -43,7 +43,7 @@ disableHugoGeneratorInject = false
   dateformNumTime = "02-01-2006 15:04 -0700"
 
   # Subtitle for home
-  homeSubtitle = "Passionate about..."
+  homeSubtitle = "Hello!"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
