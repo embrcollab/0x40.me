@@ -169,7 +169,7 @@ I spent a lot of time doing very hard manual labour in some pretty average place
 <hr>
 <p>Now, about the domain.</p>
 <p><code>pooper.net.au</code></p>
-<p>I&rsquo;m glad it was available, because it&rsquo;s silly enough to be remediable. There&rsquo;s more DNS records attached to it than I would like to admit (did somebody say subdomain?). It has a link to every service I have running, everything private is kept behind SSO through Azure AD, that was a fun one to get up and running - seamless authentication is very satisfying.</p>
+<p>I&rsquo;m glad it was available, because it&rsquo;s silly enough to be rememberable. There&rsquo;s more DNS records attached to it than I would like to admit (did somebody say subdomain?). It has a link to every service I have running, everything private is kept behind SSO through Azure AD, that was a fun one to get up and running - seamless authentication is very satisfying.</p>
 <p>Azure AD provides the authentication layer, NGINX passes an auth request to a <a href="https://github.com/vouch/vouch-proxy">Vouch</a> container, that then passes the request the Azure App Registration. I can sign in with my Microsoft 365 account to most of my services. Linking my own ADDS Virtual Machine to Azure was also a nice touch, adding users to my domain that can also use my SSO stack allows for other privileged users (friends, maybe) to get access to the services.</p>
 <p>Mixing the cloud into my infrastructure has opened my eyes to the possibility and power of modern service providers.</p>
 <hr>
