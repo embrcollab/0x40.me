@@ -40,7 +40,7 @@ Now, about the domain.
 
 `pooper.net.au`
 
-I'm glad it was available, because it's silly enough to be remediable. There's more DNS records attached to it than I would like to admit (did somebody say subdomain?). It has a link to every service I have running, everything private is kept behind SSO through Azure AD, that was a fun one to get up and running - seamless authentication is very satisfying.
+I'm glad it was available, because it's silly enough to be rememberable. There's more DNS records attached to it than I would like to admit (did somebody say subdomain?). It has a link to every service I have running, everything private is kept behind SSO through Azure AD, that was a fun one to get up and running - seamless authentication is very satisfying.
 
 Azure AD provides the authentication layer, NGINX passes an auth request to a [Vouch](https://github.com/vouch/vouch-proxy) container, that then passes the request the Azure App Registration. I can sign in with my Microsoft 365 account to most of my services. Linking my own ADDS Virtual Machine to Azure was also a nice touch, adding users to my domain that can also use my SSO stack allows for other privileged users (friends, maybe) to get access to the services.
 
