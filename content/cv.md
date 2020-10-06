@@ -2,7 +2,7 @@
 author:
   name: "Curriculum Vitae"
 date: 2020-01-07
-linktitle: Hire me
+linktitle: cv
 title: 
 type:
 - post
