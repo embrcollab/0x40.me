@@ -31,7 +31,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:title/"
 
 [author]
-  name = "Cameron Hall"
+  name = "0x40 = @"
 
 [blackfriday]
   hrefTargetBlank = true
