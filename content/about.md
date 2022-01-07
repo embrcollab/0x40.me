@@ -16,7 +16,7 @@ aliases:
 
 ## About me
 
-Hi there,,,,,,
+Hi there,
 
 My name is Cam.
 

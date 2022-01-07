@@ -96,7 +96,7 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "IP"
     name       = "Your IP"
-    url        = "http://0x40.me"
+    url        = "http://ip.0x40.me"
   [[menu.main]]
     identifier = "dig"
     name       = "Dig"

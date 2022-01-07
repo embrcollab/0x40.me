@@ -14,6 +14,8 @@ aliases:
 - /posts/cv/
 ---
 
+## This is currently out of date and hasn't been updated in a while. 
+
 ## Profile
 
 My experience is varied however I have found myself enjoying challenging tasks, whether it be maintaining the balance between the customer-business relationship or following specific criteria to design and create real world solutions to problems. I believe if I run into a problem, I can find a way to work through it in the most efficient and productive way.
