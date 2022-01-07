@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
 
 [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/cameron-hall-97147b1b1/"
+    url  = " www.linkedin.com/in/cjhallau"
 
 [languages]
   [languages.en]
@@ -107,6 +107,10 @@ disableHugoGeneratorInject = false
     name       = "CV"
     url        = "cv/"
   [[menu.main]]
-    identifier = "login"
-    name       = "Login"
-    url        = "https://nxcloud.pnet.app"
+    identifier = "IP"
+    name       = "IP"
+    url        = "https://ip.0x40.me"
+  [[menu.main]]
+    identifier = "dig"
+    name       = "⛏️"
+    url        = "https://dig.0x40.me"
