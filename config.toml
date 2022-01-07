@@ -106,10 +106,14 @@ disableHugoGeneratorInject = false
     name       = "CV"
     url        = "cv/"
   [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+  [[menu.main]]
     identifier = "IP"
     name       = "Your IP"
     url        = "http://0x40.me"
   [[menu.main]]
     identifier = "dig"
-    name       = "Dig ⛏️."
+    name       = "Dig"
     url        = "https://dig.0x40.me"
