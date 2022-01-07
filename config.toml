@@ -3,21 +3,17 @@ title        = "0x40 | @me"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
-
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-
 archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "public"
-
 buildDrafts  = false
 buildFuture  = false
 buildExpired = false
 canonifyURLs = true
-
 enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
@@ -41,22 +37,12 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2"
   dateformNum     = "02-01-2006"
   dateformNumTime = "02-01-2006 15:04 -0700"
-
-  # Subtitle for home
   homeSubtitle = "Hello!"
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
-
-  # Enable sharing buttons, if you linke
   enableSharingButtons = true
-
-  # Metadata mostly used in document's head
   description = "personal blog, information"
   keywords = "homepage, blog, startpage"
   images = [""]
-
-  # Default theme "light" or "dark"
   defaultTheme = "dark"
   themeColor = "#252627"
 
@@ -83,8 +69,8 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    title = "0x40 = @"
-    subtitle = "Welcome"
+    title = "0x40"
+    subtitle = "Me"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -92,8 +78,6 @@ disableHugoGeneratorInject = false
     [languages.en.params.logo]
       logoText = "cd ~"
       logoHomeLink = "/"
-    # or
-    #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 [menu]
