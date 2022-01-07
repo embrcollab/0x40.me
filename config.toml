@@ -1,5 +1,5 @@
 baseurl      = "https://pooper.net.au/"
-title        = "Cameron Hall"
+title        = "0x40 | @me"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -31,7 +31,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:title/"
 
 [author]
-  name = "0x40 = @"
+  name = "pepperfield"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -66,9 +66,8 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+  tag      = "tags"
+  category = "categories"
 
 [[params.social]]
     name = "email"
@@ -84,7 +83,7 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    title = "Cameron Hall"
+    title = "0x40 = @"
     subtitle = "Welcome"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -108,9 +107,9 @@ disableHugoGeneratorInject = false
     url        = "cv/"
   [[menu.main]]
     identifier = "IP"
-    name       = "IP"
-    url        = "https://ip.0x40.me"
+    name       = "Your IP"
+    url        = "http://0x40.me"
   [[menu.main]]
     identifier = "dig"
-    name       = "⛏️"
+    name       = "Dig ⛏️."
     url        = "https://dig.0x40.me"
