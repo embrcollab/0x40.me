@@ -93,7 +93,7 @@ name = "gitlab"
 url = "https://gitlab.com/pepperfield"
 [[params.social]]
 name = "linkedin"
-url = " www.linkedin.com/in/cjhallau"
+url = "https://www.linkedin.com/in/cjhallau"
 [[params.social]]
 name = "discord"
 url = "https://discord.com/users/700950024523350048"
