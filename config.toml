@@ -22,6 +22,7 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [permalinks]
   posts = "/posts/:title/"
@@ -36,10 +37,10 @@ disableHugoGeneratorInject = false
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "02-01-2006"
-  dateformNumTime = "02-01-2006 15:04 -0700"
+  dateformNumTime = "02-01-2006"
   homeSubtitle = "Hello!"
   disableReadOtherPosts = false
-  enableSharingButtons = true
+  enableSharingButtons = false
   description = "personal blog, information"
   keywords = "homepage, blog, startpage"
   images = [""]
@@ -80,7 +81,6 @@ disableHugoGeneratorInject = false
     title = "0x40"
     subtitle = "Me"
     keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
