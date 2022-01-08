@@ -1,5 +1,5 @@
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "solar"
 archetypeDir = "archetypes"
 baseurl = "https://0x40.me/"
 buildDrafts = false
