@@ -28,7 +28,6 @@ name = "pepperfield"
 [blackfriday]
 hrefTargetBlank = true
 [languages.en]
-copyright = "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-NC 4.0</a>"
 keywords = ""
 readOtherPosts = "Read other posts"
 subtitle = "Me"
@@ -69,7 +68,7 @@ dateformShort = "Jan 2"
 defaultTheme = "dark"
 description = "personal blog, information"
 disableReadOtherPosts = false
-enableSharingButtons = true
+enableSharingButtons = false
 homeSubtitle = "Hello!"
 images = [""]
 keywords = "homepage, blog, startpage"
