@@ -3,16 +3,14 @@ categories = ["how-to", "plex"]
 date = 2022-01-08T13:00:00Z
 description = "Here's few images that contain steps on how to enable direct play on Plex"
 featured = ""
-featuredalt = "direct-play-for-plex"
-featuredpath = "direct-play-for-plex"
-linktitle = "direct-play-for-plex"
+featuredalt = ""
+featuredpath = ""
+linktitle = ""
 slug = "direct-play-for-plex"
-title = "Enabling Direct Play for Plex"
+title = "Direct Play for Plex"
 type = ""
 
 +++
-
----
 
 ![](/images/d93fabbc-8167-4ca2-9444-9f553a980ade.png)
 
