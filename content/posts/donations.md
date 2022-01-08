@@ -1,11 +1,11 @@
 +++
 categories = ["donate", "plex"]
-date = 2022-01-07T13:00:00Z
+date = 2022-01-06T13:00:00Z
 description = "Donation information for y'all"
 featured = ""
-featuredalt = ""
-featuredpath = ""
-linktitle = ""
+featuredalt = "donations"
+featuredpath = "donations"
+linktitle = "donations"
 slug = "donations"
 title = "Donations"
 type = ""
@@ -24,7 +24,7 @@ I can't promise any greater uptime, or that your requests will come in quicker, 
 
 Here's a breakdown of what things cost, firstly to make the content available for viewing on Plex, and secondly the ability to continue downloading new content for our viewing pleasure.
 
-```
+```bash
     - Storage costs: $32/mo
     - Usenet indexer: $18/6mo
     - Usenet unlimited access downloads: $9/mo
