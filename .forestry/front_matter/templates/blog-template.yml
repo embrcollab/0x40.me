@@ -33,4 +33,5 @@ fields:
   name: type
   label: type
 pages:
+- content/posts/donations.md
 - content/posts/enabling-direct-play-in-plex-web.md
