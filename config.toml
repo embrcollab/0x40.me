@@ -51,7 +51,7 @@ url = "https://dig.0x40.me"
 weight = 5
 [[menu.main]]
 identifier = "IP"
-name = "Your IP"
+name = "My IP"
 url = "http://ip.0x40.me"
 weight = 6
 [[menu.main]]
