@@ -64,9 +64,17 @@ disableHugoGeneratorInject = false
     url  = "https://github.com/dickpepperfield"
 
 [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/pepperfield"
+
+[[params.social]]
     name = "linkedin"
     url  = " www.linkedin.com/in/cjhallau"
 
+[[params.social]]
+    name = "discord"
+    url  = "https://discord.com/users/700950024523350048"
+    
 [languages]
   [languages.en]
     title = "0x40"
