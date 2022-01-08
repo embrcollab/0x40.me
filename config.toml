@@ -36,25 +36,29 @@ title = "0x40"
 logoHomeLink = "/"
 logoText = "cd ~"
 [[menu.main]]
-identifier = "dig"
-name = "Dig"
-url = "https://dig.0x40.me"
-weight = 4
-[[menu.main]]
-identifier = "IP"
-name = "Your IP"
-url = "http://ip.0x40.me"
-weight = 5
+name = "Categories"
+url = "/categories"
+weight = 3
 [[menu.main]]
 identifier = "posts"
 name = "Posts"
 url = "/posts"
-weight = 3
+weight = 2
+[[menu.main]]
+identifier = "dig"
+name = "Dig"
+url = "https://dig.0x40.me"
+weight = 5
+[[menu.main]]
+identifier = "IP"
+name = "Your IP"
+url = "http://ip.0x40.me"
+weight = 6
 [[menu.main]]
 identifier = "cv"
 name = "CV"
 url = "cv/"
-weight = 2
+weight = 4
 [[menu.main]]
 identifier = "about"
 name = "About"
