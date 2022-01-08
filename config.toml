@@ -1,8 +1,7 @@
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 archetypeDir = "archetypes"
-#baseurl = "https://0x40.me/"
-baseurl = "http://jump.int.0x40.me:1313"
+baseurl = "https://0x40.me/"
 buildDrafts = false
 buildExpired = false
 buildFuture = false
