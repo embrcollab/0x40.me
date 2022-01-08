@@ -19,22 +19,22 @@ I'm attaching a few images that contain steps for a few clients, to enable maxim
 
 ***
 
-![used for plex-web](/images/xtagrju.jpg "plex-web-version")
+![](/images/1d8478ec-568d-4eb3-ae39-77793b6003d2.jpg)
 
 ### On a phone
 
 ***
 
-![used for plex-android and plex-iphone](/images/fpjn6tj.jpg "plex-mobile-version")
+![](/images/9a8ac71d-a8b1-4d65-941c-2a82c7f22edf.jpg)
 
 ### On a TV
 
 ***
 
-![used for plex-tv](/images/nka80gw.jpg "plex-tv-version")
+![](/images/45cbee23-3515-4eed-9957-ccba144bb36b.jpg)
 
 ### On a console
 
 ***
 
-![used for plex-console](/images/tmbh6n2.jpg "plex-console-version")
+![](/images/a93d509b-77c6-42c2-b43d-53b242c8810b.jpg)
