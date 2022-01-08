@@ -1,8 +1,8 @@
 +++
 categories = ["how-to", "plex"]
 date = 2022-01-07T13:00:00Z
-description = "Today, I've shared a few images that contain steps on how to enable direct play on Plex, many devices are covered"
-featured = "/images/screen-shot-2022-01-08-at-2-36-56-pm.png"
+description = "Here's few images that contain steps on how to enable direct play on Plex"
+featured = "/images/d93fabbc-8167-4ca2-9444-9f553a980ade.png"
 featuredalt = ""
 featuredpath = ""
 linktitle = ""
