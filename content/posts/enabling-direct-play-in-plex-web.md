@@ -2,7 +2,7 @@
 categories = ["how-to", "plex"]
 date = 2022-01-07T13:00:00Z
 description = "Here's few images that contain steps on how to enable direct play on Plex"
-featured = "/images/d93fabbc-8167-4ca2-9444-9f553a980ade.png"
+featured = ""
 featuredalt = "direct-play-for-plex"
 featuredpath = "direct-play-for-plex"
 linktitle = "direct-play-for-plex"
@@ -11,6 +11,10 @@ title = "Enabling Direct Play for Plex"
 type = ""
 
 +++
+***
+
+![](/images/d93fabbc-8167-4ca2-9444-9f553a980ade.png)
+
 Enabling direct play is advisable for all Plex streams, when you lower the quality in your client, the Plex server has to calculate the difference and convert the original file to a lower quality version--this process is called [_transcoding_](https://en.wikipedia.org/wiki/Transcoding). Netflix does this with millions of dollars and server farms, for the poor old Plex server, avoiding [_transcoding_](https://en.wikipedia.org/wiki/Transcoding) will ensure the CPU of the server doesn't cry too much.
 
 I'm attaching a few images that contain steps for a few clients, to enable maximum quality online streaming, which will prevent unnecessary [_transcoding_](https://en.wikipedia.org/wiki/Transcoding), and a better quality video on the device.
