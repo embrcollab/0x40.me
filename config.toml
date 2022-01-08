@@ -22,7 +22,7 @@ layoutDir = "layouts"
 paginate = 10
 publishDir = "public"
 theme = "hello-friend-ng"
-title = "0x40 | @me"
+title = "@me"
 [author]
 name = "pepperfield"
 [blackfriday]

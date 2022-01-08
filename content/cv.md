@@ -3,18 +3,18 @@ author:
   name: "Curriculum Vitae"
 date: 2020-01-07
 linktitle: cv
-title: 
+title: CV
 type:
-- post
-- posts
+  - post
+  - posts
 weight: 10
 series:
-- Hugo 101
+  - Hugo 101
 aliases:
-- /posts/cv/
+  - /posts/cv/
 ---
 
-## This is currently out of date and hasn't been updated in a while. 
+## This is currently out of date and hasn't been updated in a while.
 
 ## Profile
 
@@ -49,7 +49,7 @@ Understanding the technologies above inspired me to grow my skill set, away from
 - Network storage (Samba, NFS and iSCSI)
 - Type 1 HyperVisors and virtualisation (KVM and Proxmox)
 - Windows Server 2019
-  - Azure VMS 
+  - Azure VMS
   - Security Groups
   - Azure Active Directory (AAD)
   - Azure Active Sync (AAS)

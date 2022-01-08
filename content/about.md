@@ -3,7 +3,7 @@ author:
   name: "Curriculum Vitae"
 date: 2014-03-10
 linktitle: About
-title: 
+title: About
 type:
 - post
 - posts
