@@ -46,10 +46,21 @@ name = "Your IP"
 url = "http://ip.0x40.me"
 weight = 5
 [[menu.main]]
-identifier = "blog"
+identifier = "posts-parent"
 name = "Posts"
 url = "/posts"
 weight = 3
+[[menu.main]]
+parent = "posts-parent"
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+[[menu.main]]
+parent = "posts-parent"
+identifier = "categories"
+name = "Categories"
+url = "/categories"
+
 [[menu.main]]
 identifier = "cv"
 name = "CV"
