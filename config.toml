@@ -1,111 +1,99 @@
-baseurl      = "https://0x40.me/"
-title        = "0x40 | @me"
-languageCode = "en-us"
-theme        = "hello-friend-ng"
-paginate     = 10
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-buildDrafts  = false
-buildFuture  = false
+baseurl = "https://0x40.me/"
+buildDrafts = false
 buildExpired = false
+buildFuture = false
 canonifyURLs = true
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
+contentDir = "content"
+dataDir = "data"
+disable404 = false
 disableHugoGeneratorInject = false
-
-[permalinks]
-  posts = "/posts/:title/"
-
+disableRSS = false
+disableSitemap = false
+enableEmoji = true
+enableGitInfo = false
+enableMissingTranslationPlaceholders = false
+enableRobotsTXT = true
+languageCode = "en-us"
+layoutDir = "layouts"
+paginate = 10
+publishDir = "public"
+theme = "hello-friend-ng"
+title = "0x40 | @me"
 [author]
-  name = "pepperfield"
-
+name = "pepperfield"
 [blackfriday]
-  hrefTargetBlank = true
-
+hrefTargetBlank = true
+[languages.en]
+copyright = "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-NC 4.0</a>"
+keywords = ""
+readOtherPosts = "Read other posts"
+subtitle = "Me"
+title = "0x40"
+[languages.en.params.logo]
+logoHomeLink = "/"
+logoText = "cd ~"
+[[menu.main]]
+identifier = "dig"
+name = "Dig"
+url = "https://dig.0x40.me"
+weight = 1
+[[menu.main]]
+identifier = "IP"
+name = "Your IP"
+url = "http://ip.0x40.me"
+weight = 2
+[[menu.main]]
+identifier = "blog"
+name = "Posts"
+url = "/posts"
+weight = 3
+[[menu.main]]
+identifier = "cv"
+name = "CV"
+url = "cv/"
+weight = 4
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "about/"
+weight = 5
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "02-01-2006"
-  dateformNumTime = "02-01-2006 15:04 -0700"
-  homeSubtitle = "Hello!"
-  disableReadOtherPosts = false
-  enableSharingButtons = true
-  description = "personal blog, information"
-  keywords = "homepage, blog, startpage"
-  images = [""]
-  defaultTheme = "dark"
-  themeColor = "#252627"
-
+dateform = "Jan 2, 2006"
+dateformNum = "02-01-2006"
+dateformNumTime = "02-01-2006 15:04 -0700"
+dateformShort = "Jan 2"
+defaultTheme = "dark"
+description = "personal blog, information"
+disableReadOtherPosts = false
+enableSharingButtons = true
+homeSubtitle = "Hello!"
+images = [""]
+keywords = "homepage, blog, startpage"
+themeColor = "#252627"
 [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
-
+mask = "#252627"
+msapplication = "#252627"
+theme = "#252627"
+[[params.social]]
+name = "email"
+url = "mailto:cameron@pooper.net.au"
+[[params.social]]
+name = "github"
+url = "https://github.com/dickpepperfield"
+[[params.social]]
+name = "gitlab"
+url = "https://gitlab.com/pepperfield"
+[[params.social]]
+name = "linkedin"
+url = " www.linkedin.com/in/cjhallau"
+[[params.social]]
+name = "discord"
+url = "https://discord.com/users/700950024523350048"
+[permalinks]
+posts = "/posts/:title/"
 [taxonomies]
-  tag      = "tags"
-  category = "categories"
-
-[[params.social]]
-    name = "email"
-    url  = "mailto:cameron@pooper.net.au"
-
-[[params.social]]
-    name = "github"
-    url  = "https://github.com/dickpepperfield"
-
-[[params.social]]
-    name = "gitlab"
-    url  = "https://gitlab.com/pepperfield"
-
-[[params.social]]
-    name = "linkedin"
-    url  = " www.linkedin.com/in/cjhallau"
-
-[[params.social]]
-    name = "discord"
-    url  = "https://discord.com/users/700950024523350048"
-    
-[languages]
-  [languages.en]
-    title = "0x40"
-    subtitle = "Me"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "cd ~"
-      logoHomeLink = "/"
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "cv"
-    name       = "CV"
-    url        = "cv/"
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
-  [[menu.main]]
-    identifier = "IP"
-    name       = "Your IP"
-    url        = "http://ip.0x40.me"
-  [[menu.main]]
-    identifier = "dig"
-    name       = "Dig"
-    url        = "https://dig.0x40.me"
+category = "categories"
+tag = "tags"
