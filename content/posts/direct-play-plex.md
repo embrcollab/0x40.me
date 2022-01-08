@@ -1,6 +1,6 @@
 +++
 categories = ["how-to", "plex"]
-date = 2022-01-08T13:00:00Z
+date = 2021-01-08T13:00:00Z
 description = "Here's few images that contain steps on how to enable direct play on Plex"
 featured = ""
 featuredalt = ""
