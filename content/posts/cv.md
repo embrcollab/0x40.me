@@ -1,28 +1,22 @@
----
-author:
-  name: "Curriculum Vitae"
-date: 2020-01-07
-linktitle: cv
-title: CV
-type:
-  - post
-  - posts
-weight: 10
-series:
-  - Hugo 101
-aliases:
-  - /posts/cv/
----
++++
+categories = ["about"]
+date = 2020-06-15T14:00:00Z
+description = "This is currently out of date and hasn't been updated in a while."
+featured = ""
+featuredalt = ""
+featuredpath = ""
+linktitle = ""
+slug = "cv"
+title = "CV"
+type = ""
 
-## This is currently out of date and hasn't been updated in a while.
++++
 
 ## Profile
 
 My experience is varied however I have found myself enjoying challenging tasks, whether it be maintaining the balance between the customer-business relationship or following specific criteria to design and create real world solutions to problems. I believe if I run into a problem, I can find a way to work through it in the most efficient and productive way.
 
 ## Expertise and software experience
-
-I've been working as a L1/L2 Technical Support and Server Administrator for 18 months. During this role I have developed skills specific to a Linux based web hosting and domains company. During my tenure in this role, I have been exposed to the following technologies.
 
 - Linux server administration
   - CentOS, Ubuntu
