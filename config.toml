@@ -1,13 +1,14 @@
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 archetypeDir = "archetypes"
-baseurl = "https://0x40.me/"
+#baseurl = "https://0x40.me/"
+baseurl = "http://jump.int.0x40.me:1313"
 buildDrafts = false
 buildExpired = false
 buildFuture = false
 canonifyURLs = true
 contentDir = "content"
-copyright = "2022 - CC"
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." 
 dataDir = "data"
 disable404 = false
 disableHugoGeneratorInject = false
@@ -27,11 +28,11 @@ title = "0x40 | @me"
 name = "pepperfield"
 [blackfriday]
 hrefTargetBlank = true
-[languages.en]
-keywords = ""
-readOtherPosts = "Read other posts"
-subtitle = "Me"
-title = "0x40"
+[languages]
+  [languages.en]
+    subtitle  = "0x40"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 [languages.en.params.logo]
 logoHomeLink = "/"
 logoText = "cd ~"
@@ -78,6 +79,15 @@ images = [""]
 keywords = "homepage, blog, startpage"
 themeColor = "#252627"
 enableThemeToggle = true
+[params.footer]
+  trademark = true
+  rss = true
+  copyright = true
+  author = true
+  topText = []
+  bottomText = [
+    "Powered with <a href=\"http://gohugo.io\">Hugo</a> and <a href=\"https://github.com/rhazdon\">rhazdon</a>"
+  ]
 [params.favicon.color]
 mask = "#252627"
 msapplication = "#252627"
