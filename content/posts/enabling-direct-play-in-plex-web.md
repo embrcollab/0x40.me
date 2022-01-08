@@ -2,7 +2,6 @@
 categories = ["how-to", "plex"]
 date = 2022-01-07T13:00:00Z
 description = "Enabling direct play for Plex"
-draft = true
 featured = "/images/screen-shot-2022-01-08-at-2-36-56-pm.png"
 featuredalt = ""
 featuredpath = ""
