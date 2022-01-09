@@ -1,0 +1,113 @@
+PygmentsCodeFences = true
+PygmentsStyle = "solar"
+archetypeDir = "archetypes"
+baseurl = "https://0x40.me/"
+buildDrafts = false
+buildExpired = false
+buildFuture = false
+canonifyURLs = true
+contentDir = "content"
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." 
+dataDir = "data"
+disable404 = false
+disableHugoGeneratorInject = false
+disableRSS = false
+disableSitemap = false
+enableEmoji = true
+enableGitInfo = false
+enableMissingTranslationPlaceholders = false
+enableRobotsTXT = true
+languageCode = "en-us"
+layoutDir = "layouts"
+paginate = 10
+publishDir = "public"
+theme = "hello-friend-ng"
+title = "@me"
+[author]
+name = "pepperfield"
+[blackfriday]
+hrefTargetBlank = true
+[languages]
+  [languages.en]
+    subtitle  = "0x40"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+[languages.en.params.logo]
+logoHomeLink = "/"
+logoText = "cd ~"
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 3
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 2
+[[menu.main]]
+identifier = "dig"
+name = "Dig"
+url = "https://dig.0x40.me"
+weight = 5
+[[menu.main]]
+identifier = "IP"
+name = "My IP"
+url = "http://ip.0x40.me"
+weight = 6
+[[menu.main]]
+identifier = "cv"
+name = "CV"
+url = "/posts/cv/"
+weight = 4
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/posts/about/"
+weight = 1
+[params]
+dateform = "Jan 2, 2006"
+dateformNum = "02-01-2006"
+dateformNumTime = "02-01-2006"
+dateformShort = "Jan 2"
+defaultTheme = "dark"
+description = "personal blog, information"
+disableReadOtherPosts = true
+enableSharingButtons = false
+homeSubtitle = "Hello!"
+images = [""]
+keywords = "homepage, blog, startpage"
+themeColor = "#252627"
+enableThemeToggle = true
+[params.footer]
+  trademark = true
+  rss = true
+  copyright = true
+  author = true
+  topText = []
+  bottomText = [
+    "Powered with <a href=\"http://gohugo.io\">Hugo</a> and <a href=\"https://github.com/rhazdon\">rhazdon</a>"
+  ]
+[params.favicon.color]
+mask = "#252627"
+msapplication = "#252627"
+theme = "#252627"
+[[params.social]]
+name = "email"
+url = "mailto:cameron@pooper.net.au"
+[[params.social]]
+name = "github"
+url = "https://github.com/dickpepperfield"
+[[params.social]]
+name = "gitlab"
+url = "https://gitlab.com/pepperfield"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/cjhallau"
+[[params.social]]
+name = "discord"
+url = "https://discord.com/users/700950024523350048"
+[permalinks]
+posts = "/posts/:title/"
+[taxonomies]
+category = "categories"
+tag = "tags"
