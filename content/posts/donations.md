@@ -1,5 +1,5 @@
 +++
-categories = ["donate", "plex"]
+categories = ["plex"]
 date = 2022-01-06T13:00:00Z
 description = "Donation information for y'all"
 featured = ""
