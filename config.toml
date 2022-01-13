@@ -75,6 +75,11 @@ summaryLength = 0
   url = "/posts"
   weight = 20
 [[menu.main]]
+  identifier = "guides"
+  name = "Guides"
+  url = "/guides"
+  weight = 21
+[[menu.main]]
   identifier = "cv"
   name = "CV"
   url = "/posts/cv/"

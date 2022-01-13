@@ -1,5 +1,5 @@
 +++
-categories = []
+categories = ["guide"]
 date = 2022-01-12T13:00:00Z
 description = ""
 featured = ""
@@ -8,10 +8,10 @@ featuredpath = ""
 linktitle = ""
 slug = "create-swap-on-centos"
 title = "Create swap on CentOS"
-type = ""
+type = "guide"
 
 +++
-This guide will provide steps on the quickest way to create a swap file on CentOS, should work on both CentOS7, 8 and Stream. Before proceeding with this tutorial, check if your CentOS installation already has swap enabled by typing:
+This guide will provide steps on the quickest way to create a swap file on CentOS, should work on both CentOS 7, 8 and Stream. Before proceeding with this tutorial, check if your CentOS installation already has swap enabled by typing:
 
 ```
 sudo swapon --show
