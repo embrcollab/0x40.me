@@ -34,5 +34,5 @@ fields:
   label: type
 pages:
 - content/posts/about.md
+- content/posts/create-swap-on-centos.md
 - content/posts/donations.md
-- content/posts/enabling-direct-play-in-plex-web.md
