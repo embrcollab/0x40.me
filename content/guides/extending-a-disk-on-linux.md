@@ -6,8 +6,8 @@ featured = ""
 featuredalt = ""
 featuredpath = ""
 linktitle = ""
-slug = "direct-play-for-plex"
-title = "Direct Play for Plex"
+slug = "extending-a-disk-on-linux"
+title = "Extending an LVM partition with GParted & fdisk"
 type = ""
 
 +++
