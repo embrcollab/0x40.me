@@ -1,6 +1,6 @@
 +++
 categories = ["guide"]
-date = 2022-01-14T13:00:00Z
+date = 2022-01-11T13:00:00Z
 description = "Extending an LVM partition with GParted"
 featured = ""
 featuredalt = ""
