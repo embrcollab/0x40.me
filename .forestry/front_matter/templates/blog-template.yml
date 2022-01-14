@@ -2,36 +2,25 @@
 label: blog template
 hide_body: false
 fields:
-- type: list
-  name: categories
-  label: categories
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: description
-  label: description
-- type: file
-  name: featured
-  label: featured
-- type: text
-  name: featuredalt
-  label: featuredalt
-- type: text
-  name: featuredpath
-  label: featuredpath
-- type: text
-  name: linktitle
-  label: linktitle
 - type: text
   name: title
   label: title
+- type: datetime
+  name: date
+  label: date
+- name: draft
+  type: boolean
+  label: draft
+- type: text
+  name: description
+  label: description
 - type: text
   name: slug
   label: slug
-- type: text
-  name: type
-  label: type
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 pages:
 - content/posts/about.md
 - content/posts/donations.md
