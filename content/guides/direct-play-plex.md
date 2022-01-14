@@ -1,16 +1,15 @@
-+++
-categories = ["guide", "plex"]
-date = 2021-12-17T13:00:00Z
-description = "Here's few images that contain steps on how to enable direct play on Plex"
-featured = ""
-featuredalt = ""
-featuredpath = ""
-linktitle = ""
-slug = "direct-play-for-plex"
-title = "Direct Play for Plex"
-type = ""
+---
+title: "Direct Play for Plex"
+date: 2021-12-17
+draft: false
+description: "Here's few images that contain steps on how to enable direct play on Plex."
+slug: "direct-play-for-plex"
+tags: ["guide", "plex"]
+---
 
-+++
+{{< lead >}}
+In this guide, there is a few images that contain steps on how to enable direct play on Plex
+{{< /lead >}}
 
 ![](/images/d93fabbc-8167-4ca2-9444-9f553a980ade.png)
 

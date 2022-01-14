@@ -1,16 +1,15 @@
-+++
-categories = ["guide"]
-date = 2022-01-12T13:00:00Z
-description = "Creating swap on CentOS"
-featured = ""
-featuredalt = ""
-featuredpath = ""
-linktitle = ""
-slug = "create-swap-on-centos"
-title = "Create swap on CentOS"
-type = "guide"
+---
+title: "Creating swap on CentOS"
+date: 2022-01-12
+draft: false
+description: "How to create a swap file on CentOS."
+slug: "create-swap-on-centos"
+tags: ["guide"]
+---
 
-+++
+{{< lead >}}
+In this guide, we'll create a swap file on CentOS.
+{{< /lead >}}
 
 This guide will provide steps on the quickest way to create a swap file on CentOS, should work on both CentOS 7, 8 and Stream. Before proceeding with this tutorial, check if your CentOS installation already has swap enabled by typing:
 

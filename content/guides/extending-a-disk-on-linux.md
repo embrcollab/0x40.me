@@ -1,16 +1,15 @@
-+++
-categories = ["guide"]
-date = 2022-01-11T13:00:00Z
-description = "Extending an LVM partition with GParted"
-featured = ""
-featuredalt = ""
-featuredpath = ""
-linktitle = ""
-slug = "extending-a-disk-on-linux"
-title = "Extending an LVM partition with GParted & fdisk"
-type = ""
+---
+title: "Extending an LVM partition with GParted & fdisk"
+date: 2022-01-11
+draft: false
+description: "Extending an LVM partition with GParted."
+slug: "extending-a-disk-on-linux"
+tags: ["guide"]
+---
 
-+++
+{{< lead >}}
+In this guide, we'll expand existing disks, using GParted, as well as fdisk, including partition expansions.
+{{< /lead >}}
 
 ## Extending an LVM partition with GParted
 
@@ -20,21 +19,26 @@ Follow guide at own risk, resizing disks comes with risk, make sure you have bac
 2. Use Gparted to increase logical volume size
 3. Run `vgdisplay` - find the "VG Name", in my sitation it's d0
 4. Extend the LVM volume
+
 ```
 lvextend -l +100%FREE /dev/d0/root
 ```
 
 5. expand the file system, either using resize2fs or xfx_growfs if using centOS and XFS
-This
+   This
+
 ```
 xfs_growfs /dev/d0/root
 ```
+
 Or this depending on FS type
+
 ```
 resize2fs /dev/d0/root
 ```
 
-6. verify change has gone through  
+6. verify change has gone through
+
 ```
 df -h
 ```
@@ -44,7 +48,7 @@ df -h
 ## Extending an LVM partition with fdisk and without a reboot.
 
 You can do this without rebooting in CentOS 7. Assuming your disk is /dev/vda and standard RHEL/CentOS partitioning:  
-Extend partition  
+Extend partition
 
 ```
 # fdisk /dev/vda
@@ -57,20 +61,21 @@ Enter `t` (type) then `2` then `8e` to change the new partition type to "Linux L
 Enter `p` to print your new partition table and make sure the start block matches what was in the initial partition table printed above.  
 Enter `w` to write the partition table to disk. You will see an error about `Device or resource busy` which you can ignore.  
 Update kernel in-memory partition table  
-After changing your partition table, run the following command to update the kernel in-memory partition table:  
+After changing your partition table, run the following command to update the kernel in-memory partition table:
 
 ```
 # partx -u /dev/vda
 ```
+
 Resize physical volume  
-Resize the PV to recognize the extra space  
+Resize the PV to recognize the extra space
 
 ```
 # pvresize /dev/vda2
 ```
 
 Resize LV and filesystem  
-In this command `centos` is the PV, `root` is the LV and `/dev/vda2` is the partition that was extended. Use `pvs` and `lvs` commands to see your physical and logical volume names if you don't know them. The `-r` option in this command resizes the filesystem appropriately so you don't have to call `resize2fs` or `xfs_growfs` separately.  
+In this command `centos` is the PV, `root` is the LV and `/dev/vda2` is the partition that was extended. Use `pvs` and `lvs` commands to see your physical and logical volume names if you don't know them. The `-r` option in this command resizes the filesystem appropriately so you don't have to call `resize2fs` or `xfs_growfs` separately.
 
 ```
 # lvextend -r centos/root /dev/vda2

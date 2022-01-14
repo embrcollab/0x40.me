@@ -1,16 +1,15 @@
-+++
-categories = ["plex"]
-date = 2022-01-06T13:00:00Z
-description = "Donation information for y'all"
-featured = ""
-featuredalt = ""
-featuredpath = ""
-linktitle = ""
-slug = "donations"
-title = "Donations"
-type = ""
+---
+title: "Donations"
+date: 2022-01-06
+draft: false
+description: "Donation information for y'all."
+slug: "donations"
+tags: ["plex"]
+---
 
-+++
+{{< lead >}}
+Donation information for y'all
+{{< /lead >}}
 
 ![](/images/d93fabbc-8167-4ca2-9444-9f553a980ade.png)
 

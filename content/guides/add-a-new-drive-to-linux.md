@@ -1,16 +1,15 @@
-+++
-categories = ["guide"]
-date = 2022-01-12T13:00:00Z
-description = "Adding a new drive to a linux machine"
-featured = ""
-featuredalt = ""
-featuredpath = ""
-linktitle = ""
-slug = "adding-a-new-drive-to-linux"
-title = "Adding a new drive to a linux machine"
-type = "guide"
+---
+title: "Adding a new drive to a linux machine"
+date: 2022-01-12
+draft: false
+description: "In this guide, we'll add a new disk, and format it for use."
+slug: "adding-a-new-drive-to-linux"
+tags: ["guide"]
+---
 
-+++
+{{< lead >}}
+In this guide, we'll add a new disk, and format it for use.
+{{< /lead >}}
 
 This guide makes assumptions about drive lettering and paths, ensure you're running things where you want to.
 

@@ -1,16 +1,15 @@
-+++
-categories = ["about"]
-date = 2020-06-15T14:00:00Z
-description = "This is currently out of date and hasn't been updated in a while."
-featured = ""
-featuredalt = ""
-featuredpath = ""
-linktitle = ""
-slug = "cv"
-title = "CV"
-type = ""
+---
+title: "CV"
+date: 2020-06-15
+draft: false
+description: "This is currently out of date and hasn't been updated in a while."
+slug: "cv"
+tags: ["about"]
+---
 
-+++
+{{< lead >}}
+This is currently out of date and hasn't been updated in a while.
+{{< /lead >}}
 
 ## Profile
 

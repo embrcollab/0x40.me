@@ -13,11 +13,11 @@ defaultContentLanguage = "en"
 title = "0x40.me — @me"
 enableEmoji = true
 summaryLength = 0
-# baseURL = "https://0x40.me"
+baseURL = "https://0x40.me"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 
-[author]
+[author] 
   name = "pepperfield"
   image = "images/author.png"
   bio = "Making content is hard."
@@ -94,7 +94,23 @@ summaryLength = 0
   name = "My IP"
   url = "http://ip.0x40.me"
   weight = 60
+  target= "_blank"
 
+[[menu.footer]]
+  identifier = "site-analytics"
+  name = "Site Analytics"
+  url = "https://analytics.0x40.me/share/Xf425O0N/0x40-me"
+  weight = 10
+[[menu.footer]]
+  identifier = "terms-conditions"
+  name = "Terms and conditions"
+  url = "/policies/terms-and-conditions"
+  weight = 20
+[[menu.footer]]
+  identifier = "privacy-policy"
+  name = "Privacy Policy"
+  url = "/policies/privacy-policy"
+  weight = 30
 
 [markup.goldmark]
 [markup.goldmark.renderer]
