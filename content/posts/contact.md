@@ -51,8 +51,10 @@ fieldset {
       <textarea placeholder="Type your Message Here...." tabindex="5" type="message" name="message" required></textarea>
     </fieldset>
     <fieldset>
-      {{< button name="submit" type="submit" id="contact-submit" >}}
+      <button name="submit" type="submit" id="contact-submit">
+        {{< button >}}
         Submit
-      {{< /button >}}
+        {{< /button >}}
+      </button>
     </fieldset>
   </form>
