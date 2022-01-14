@@ -1,12 +1,16 @@
 ---
-title: "CV"
+title: CV
 date: 2020-06-15
-draft: false
-description: "This is currently out of date and hasn't been updated in a while."
-slug: "cv"
-tags: ["about"]
----
+description: This is currently out of date and hasn't been updated in a while.
+slug: cv
+tags:
+- about
+menu:
+  main:
+    identifier: cv
+    weight: 4
 
+---
 {{< lead >}}
 {{< alert >}}
 This is currently out of date and hasn't been updated in a while.

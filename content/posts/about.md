@@ -1,12 +1,16 @@
 ---
-title: "About"
+title: About
 date: 2020-07-14
-draft: false
-description: "This is currently out of date and hasn't been updated in a while."
-slug: "about"
-tags: ["about"]
----
+description: This is currently out of date and hasn't been updated in a while.
+slug: about
+tags:
+- about
+menu:
+  main:
+    identifier: about
+    weight: 1
 
+---
 {{< lead >}}
 {{< alert >}}
 This is currently out of date and hasn't been updated in a while.

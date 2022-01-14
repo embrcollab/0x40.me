@@ -1,115 +1,71 @@
-# Site configuration for the Congo demo site
-# --------------------------------------------------------------------------
-# IMPORTANT: You should not use this file as a template for configuration
-# as it does not contain all the required theme settings!
-#
-# Refer to the theme docs for configuration instructions if you're unsure.
-# https://jpanther.github.io/congo/docs/
-# --------------------------------------------------------------------------
-
-theme = "congo"
-languageCode = "en-AU"
-defaultContentLanguage = "en"
-title = "0x40.me — @me"
-enableEmoji = true
-summaryLength = 0
 baseURL = "https://0x40.me"
-# copyright = "Copy, _right?_ :thinking_face:"
-
-
-[author] 
-  name = "pepperfield"
-  image = "images/author.png"
-  bio = "Making content is hard."
-  links = [
-    { email = "mailto:cameron@pooper.net.au" },
-    { github = "https://github.com/dickpepperfield" },
-    { gitlab = "https://gitlab.com/pepperfield" },
-    { linkedin = "https://www.linkedin.com/in/cjhallau" },
-    { discord = "https://discord.com/users/700950024523350048" },
-  ]
-
-[taxonomies]
-  tag = "tags"
-
-[params]
-  #logo = "images/author.jpg"
-  colorScheme = "avocado" 
-  # darkMode = "auto"
-  darkToggle = "true"
-  # description = ""
-  # mainSections = ""
-
-[params.homepage]
-  layout = "profile"
-  showRecent = false
-  mainSections = ["samples"]
-
-[params.list]
-  groupByYear = false
-  showBreadcrumbs = true
-
-[params.article]
-  showBreadcrumbs = true
-  showEdit = false
-  editURL = "https://github.com/"
-  editAppendPath = true
-  showDate = true
-  dateFormat = "2 January 2006"
-  showAuthor = true
-  showDraftLabel = true
-  showHeadingAnchors = true
-  showPagination = false
-  showReadingTime = true
-  showWordCount = false
-  # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
-
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/posts/about/"
-  weight = 10
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts"
-  weight = 20
-[[menu.main]]
-  identifier = "guides"
-  name = "Guides"
-  url = "/guides"
-  weight = 21
-[[menu.main]]
-  identifier = "cv"
-  name = "CV"
-  url = "/posts/cv/"
-  weight = 40
-[[menu.main]]
-  identifier = "dig"
-  name = "Dig"
-  url = "https://dig.0x40.me"
-  weight = 50
-[[menu.main]]
-  identifier = "IP"
-  name = "My IP"
-  url = "http://ip.0x40.me"
-  weight = 60
-  target= "_blank"
-
-[[menu.footer]]
-  identifier = "site-analytics"
-  name = "Site Analytics"
-  url = "https://analytics.0x40.me/share/Xf425O0N/0x40-me"
-  weight = 10
-[[menu.footer]]
-  identifier = "sitemap"
-  name = "Sitemap"
-  url = "/sitemap.xml"
-  weight = 20
-
-[markup.goldmark]
+defaultContentLanguage = "en"
+enableEmoji = true
+languageCode = "en-AU"
+summaryLength = 0
+theme = "congo"
+title = "0x40.me — @me"
+[author]
+bio = "Making content is hard."
+image = "images/author.png"
+name = "pepperfield"
+[[author.links]]
+email = "mailto:cameron@pooper.net.au"
+[[author.links]]
+github = "https://github.com/dickpepperfield"
+[[author.links]]
+gitlab = "https://gitlab.com/pepperfield"
+[[author.links]]
+linkedin = "https://www.linkedin.com/in/cjhallau"
+[[author.links]]
+discord = "https://discord.com/users/700950024523350048"
 [markup.goldmark.renderer]
-  unsafe = true
-
+unsafe = true
 [markup.highlight]
-  noClasses = false
+noClasses = false
+[[menu.footer]]
+identifier = "site-analytics"
+name = "Site Analytics"
+url = "https://analytics.0x40.me/share/Xf425O0N/0x40-me"
+weight = 1
+[[menu.footer]]
+identifier = "sitemap"
+name = "Sitemap"
+url = "/sitemap.xml"
+weight = 2
+[[menu.main]]
+identifier = "IP"
+name = "My IP"
+target = "_blank"
+url = "http://ip.0x40.me"
+weight = 6
+[[menu.main]]
+identifier = "dig"
+name = "Dig"
+url = "https://dig.0x40.me"
+weight = 5
+[params]
+colorScheme = "avocado"
+darkToggle = "true"
+[params.article]
+dateFormat = "2 January 2006"
+editAppendPath = true
+editURL = "https://github.com/"
+showAuthor = true
+showBreadcrumbs = true
+showDate = true
+showDraftLabel = true
+showEdit = false
+showHeadingAnchors = true
+showPagination = false
+showReadingTime = true
+showWordCount = false
+[params.homepage]
+layout = "profile"
+mainSections = ["samples"]
+showRecent = false
+[params.list]
+groupByYear = false
+showBreadcrumbs = true
+[taxonomies]
+tag = "tags"
