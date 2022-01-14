@@ -8,7 +8,7 @@ cascade:
 menu:
   main:
     identifier: posts
-    weight: 2
+    weight: 3
 
 ---
 {{< lead >}}

@@ -1,12 +1,15 @@
 ---
-title: "Contact"
+title: Contact
 date: 2020-07-14
-draft: false
-description: "Contact page."
-slug: "contact"
-tags: ["about"]
----
+description: Contact page.
+slug: contact
+tags:
+- about
+menu:
+  main:
+    weight: 5
 
+---
 {{< lead >}}
 Drop me a line.
 {{< /lead >}}

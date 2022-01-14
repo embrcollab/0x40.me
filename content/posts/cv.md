@@ -8,7 +8,7 @@ tags:
 menu:
   main:
     identifier: cv
-    weight: 4
+    weight: 2
 
 ---
 {{< lead >}}
