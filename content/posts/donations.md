@@ -15,7 +15,7 @@ Donation information for y'all
 
 ## Hey
 
-If **you** like what I do with poopernetplex ([https://plex.pooper.net.au](https://plex.pooper.net.au)), please consider reading on,
+If you like what I do with poopernetplex ([https://plex.pooper.net.au](https://plex.pooper.net.au)), please consider reading on,
 
 ***
 
