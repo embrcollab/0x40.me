@@ -8,7 +8,7 @@ cascade:
 menu:
   main:
     identifier: guides
-    weight: 3
+    weight: 4
 
 ---
 {{< lead >}}

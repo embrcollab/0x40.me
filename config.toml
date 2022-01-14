@@ -38,12 +38,12 @@ identifier = "IP"
 name = "My IP"
 target = "_blank"
 url = "http://ip.0x40.me"
-weight = 6
+weight = 7
 [[menu.main]]
 identifier = "dig"
 name = "Dig"
 url = "https://dig.0x40.me"
-weight = 5
+weight = 6
 [params]
 colorScheme = "avocado"
 darkToggle = "true"
