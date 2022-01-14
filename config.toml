@@ -62,7 +62,6 @@ showReadingTime = true
 showWordCount = false
 [params.homepage]
 layout = "profile"
-mainSections = ["samples"]
 showRecent = false
 [params.list]
 groupByYear = false
