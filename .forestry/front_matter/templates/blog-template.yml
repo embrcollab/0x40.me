@@ -34,5 +34,4 @@ fields:
   label: type
 pages:
 - content/posts/about.md
-- content/posts/create-swap-on-centos.md
 - content/posts/donations.md
