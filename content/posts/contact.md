@@ -37,7 +37,7 @@ fieldset {
 	border:1px solid #999;
 }
 </style>
-  <form id="contact" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <form id="contact" name="0x40-me-contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
     <p class="hidden">
         <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
     </p>
