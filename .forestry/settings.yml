@@ -6,9 +6,25 @@ webhook_url:
 sections:
 - type: directory
   path: content/posts
-  label: Posts
+  label: posts
   create: all
   match: "**/*"
+  templates:
+  - blog-template
+- type: directory
+  path: content/guides
+  label: guides
+  create: all
+  match: "**/*"
+  templates:
+  - blog-template
+- type: directory
+  path: content/policies
+  label: policies
+  create: all
+  match: "**/*"
+  templates:
+  - blog-template
 - type: directory
   path: content
   label: Pages
