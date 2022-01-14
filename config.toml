@@ -102,15 +102,10 @@ baseURL = "https://0x40.me"
   url = "https://analytics.0x40.me/share/Xf425O0N/0x40-me"
   weight = 10
 [[menu.footer]]
-  identifier = "terms-conditions"
-  name = "Terms and conditions"
-  url = "/policies/terms-and-conditions"
+  identifier = "sitemap"
+  name = "Sitemap"
+  url = "/sitemap.xml"
   weight = 20
-[[menu.footer]]
-  identifier = "privacy-policy"
-  name = "Privacy Policy"
-  url = "/policies/privacy-policy"
-  weight = 30
 
 [markup.goldmark]
 [markup.goldmark.renderer]

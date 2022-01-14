@@ -8,7 +8,9 @@ tags: ["about"]
 ---
 
 {{< lead >}}
+{{< alert >}}
 This is currently out of date and hasn't been updated in a while.
+{{< /alert >}}
 {{< /lead >}}
 
 ## Hi there,
