@@ -99,20 +99,11 @@
   relURL }}" /> <link rel="icon" type="image/png" sizes="32x32" href="{{
   "favicon-32x32.png" | relURL }}" /> <link rel="icon" type="image/png"
   sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}" /> <link
-  rel="manifest" href="{{ "site.webmanifest" | relURL }}" /> {{ end }} {{/* Site
-  Verification */}} {{ with .Site.Params.verification.google }}
-  <meta name="google-site-verification" content="{{ . }}" />
-  {{ end }} {{ with .Site.Params.verification.bing }}
-  <meta name="msvalidate.01" content="{{ . }}" />
-  {{ end }} {{ with .Site.Params.verification.pinterest }}
-  <meta name="p:domain_verify" content="{{ . }}" />
-  {{ end }} {{ with .Site.Params.verification.yandex }}
-  <meta name="yandex-verification" content="{{ . }}" />
-  {{ end }} {{/* Social */}} {{ template "_internal/opengraph.html" . }} {{
-  template "_internal/twitter_cards.html" . }} {{/* Schema */}} {{ partial
-  "schema.html" . }} {{/* Generator */}} {{ if .Site.Params.attribution |
-  default true }} {{ hugo.Generator }} {{ end }} {{/* Me */}} {{ with
-  .Site.Author.name }}
+  rel="manifest" href="{{ "site.webmanifest" | relURL }}" /> {{ end }} {{/*
+  Social */}} {{ template "_internal/opengraph.html" . }} {{ template
+  "_internal/twitter_cards.html" . }} {{/* Schema */}} {{ partial "schema.html"
+  . }} {{/* Generator */}} {{ if .Site.Params.attribution | default true }} {{
+  hugo.Generator }} {{ end }} {{/* Me */}} {{ with .Site.Author.name }}
   <meta name="author" content="{{ . }}" />
   {{ end }} {{ with .Site.Author.links }} {{ range $links := . }} {{ range
   $name, $url := $links }}
