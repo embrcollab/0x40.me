@@ -5,6 +5,7 @@ languageCode = "en-AU"
 summaryLength = 0
 theme = "congo"
 title = "0x40.me — @me"
+googleAnalytics = "BLEH"
 [author]
 bio = "Making content is hard."
 image = "images/author.png"
