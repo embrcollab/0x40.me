@@ -12,6 +12,7 @@ colorScheme = "congo"
 # description = "My awesome website"
 # mainSections = ["section1", "section2"]
 # robots = ""
+  googleAnalytics = ""
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
@@ -48,7 +49,7 @@ colorScheme = "congo"
   # domain = "llama.yoursite.com"
 
 [verification]
-  # google = ""
+  google = ""
   # bing = ""
   # pinterest = ""
   # yandex = ""
