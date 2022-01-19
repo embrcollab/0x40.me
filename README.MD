@@ -1,6 +1,6 @@
 # 0x40.me - personal website
 
-[![license](https://img.shields.io/badge/LICENSE-GPLv3-green)](https://github.com/dickpepperfield/0x40.me/master/LICENSE)
+[![license](https://img.shields.io/badge/LICENSE-MIT-green)](https://github.com/dickpepperfield/0x40.me/master/LICENSE)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/db703b0a-5f72-408f-a1c5-9f596e04fa7b/deploy-status)](https://app.netlify.com/sites/0x40-me/deploys)
 
 ## Description
