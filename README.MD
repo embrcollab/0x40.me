@@ -1,6 +1,6 @@
 # 0x40.me - personal website
 
-[![license](https://img.shields.io/badge/LICENSE-MIT-green)](https://github.com/dickpepperfield/0x40.me/master/LICENSE)
+[![license](https://img.shields.io/badge/LICENSE-MIT-green)](https://github.com/embrcollab/0x40.me/master/LICENSE)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/db703b0a-5f72-408f-a1c5-9f596e04fa7b/deploy-status)](https://app.netlify.com/sites/0x40-me/deploys)
 
 ## Description
@@ -12,6 +12,7 @@ A personal website, statically built using Hugo, and deployed on Netlify.
 Hugo v0.81.0
 
 Clone locally and run development server
+
 ```
 git clone https://github.com/dickpepperfield/0x40.me.git
 hugo server -D --bind 0.0.0.0
