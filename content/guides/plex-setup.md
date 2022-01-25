@@ -1,5 +1,5 @@
 ---
-title: "First time setup for Plx"
+title: "First time setup for Plex"
 date: 2021-12-17
 draft: false
 description: "Onboard process for a new Plex user, and the steps required to enable direct play.."
