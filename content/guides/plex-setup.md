@@ -17,6 +17,8 @@ When you're happy with how it looks, change your password! The one I provide sho
 
 There are Plex apps for almost every device, so you can enjoy it on your TV directly, PS4 etc.
 
+There is a lot of recommendations and genre organising inside each library type, so check it out if you're struggling to find something. If somethings missing and you really want to watch it, get access to the Signal group by asking whoever invited you, and you can add recommendations there.
+
 # Read on to make sure you get the best streaming experience
 
 ![](/images/d93fabbc-8167-4ca2-9444-9f553a980ade.png)
