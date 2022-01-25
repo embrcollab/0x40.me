@@ -43,6 +43,6 @@ Sir this is a McDonalds.
 
 # 💖
 
-# https://www.buymeacoffee.com/pepperfield
+# [buy me a coffee](https://www.buymeacoffee.com/pepperfield)
 
 Or if you prefer PayID: payments@pooper.net.au
