@@ -11,6 +11,14 @@ tags: ["guide", "plex"]
 In this guide, there is a few images that contain steps on how to enable direct play on Plex
 {{< /lead >}}
 
+So you've now got a Plex account, and have been invited to the server. A few things to know, you have made an account with Plex, a software company, and I share content on my server with your Plex account. After first signing in, make sure to pin the sources to your sidebar, so your homescreen is populated with all the great content available, [read more here<i class="fas fa-external-link-alt"></i>](https://support.plex.tv/articles/customizing-plex-web/)
+
+When you're happy with how it looks, change your password! The one I provide should be temporary.
+
+There are Plex apps for almost every device, so you can enjoy it on your TV directly, PS4 etc.
+
+# Read on to make sure you get the best streaming experience
+
 ![](/images/d93fabbc-8167-4ca2-9444-9f553a980ade.png)
 
 Enabling direct play is advisable for all Plex streams, when you lower the quality in your client, the Plex server has to calculate the difference and convert the original file to a lower quality version--this process is called [_transcoding_](https://en.wikipedia.org/wiki/Transcoding). Netflix does this with millions of dollars and server farms, for the poor old Plex server, avoiding [_transcoding_](https://en.wikipedia.org/wiki/Transcoding) will ensure the CPU of the server doesn't cry too much.
