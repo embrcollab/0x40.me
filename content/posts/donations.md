@@ -4,9 +4,9 @@ date: 2022-01-06
 description: Donation information for y'all.
 slug: donations
 tags:
-- plex
-
+  - plex
 ---
+
 {{< lead >}}
 Donation information for y'all
 {{< /lead >}}
@@ -17,7 +17,7 @@ Donation information for y'all
 
 If you like what I do with poopernetplex ([https://plex.pooper.net.au](https://plex.pooper.net.au)), please consider reading on,
 
-***
+---
 
 I can't promise any greater uptime, or that your requests will come in quicker, but if you've enjoyed the service for its lifetime (over 1 year now), you may consider donating.
 
@@ -32,7 +32,7 @@ Here's a breakdown of what things cost, firstly to make the content available fo
 
 I will continue to provide the service for free to invited friends, and there's no obligation or requirement moving forward for any payment at all, but if you've enjoyed the access at all and can afford to spare a few bucks every now and then to help out with the ongoing costs, you'll be contributing to [poopernetplex](https://plex.pooper.net.au)'s ongoing life.
 
-***
+---
 
 Only contribute if you can afford to,  
 There is no requirement to,  
@@ -43,4 +43,6 @@ Sir this is a McDonalds.
 
 # 💖
 
-### PayID: payments@pooper.net.au
+# https://www.buymeacoffee.com/pepperfield
+
+Or if you prefer PayID: payments@pooper.net.au
