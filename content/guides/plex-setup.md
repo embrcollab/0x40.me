@@ -1,9 +1,9 @@
 ---
-title: "Direct Play for Plex"
+title: "First time setup for Plx"
 date: 2021-12-17
 draft: false
-description: "Here's few images that contain steps on how to enable direct play on Plex."
-slug: "direct-play-for-plex"
+description: "Onboard process for a new Plex user, and the steps required to enable direct play.."
+slug: "plex-setup"
 tags: ["guide", "plex"]
 ---
 
