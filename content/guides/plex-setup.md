@@ -8,10 +8,10 @@ tags: ["guide", "plex"]
 ---
 
 {{< lead >}}
-In this guide, there is a few images that contain steps on how to enable direct play on Plex
+In this guide, we'll run through the first steps to take when accessing Plex.
 {{< /lead >}}
 
-So you've now got a Plex account, and have been invited to the server. A few things to know, you have made an account with Plex, a software company, and I share content on my server with your Plex account. After first signing in, make sure to pin the sources to your sidebar, so your homescreen is populated with all the great content available, [read more here<i class="fas fa-external-link-alt"></i>](https://support.plex.tv/articles/customizing-plex-web/)
+So you've now got a Plex account, and have been invited to the server. A few things to know, you have made an account with Plex, a software company, and I share content on my server with your Plex account. After first signing in, make sure to pin the sources to your sidebar, so your homescreen is populated with all the great content available, [read more here <i class="fas fa-external-link-alt"></i>](https://support.plex.tv/articles/customizing-plex-web/)
 
 When you're happy with how it looks, change your password! The one I provide should be temporary.
 
