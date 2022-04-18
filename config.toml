@@ -14,8 +14,6 @@ email = "mailto:cameron@pooper.net.au"
 [[author.links]]
 github = "https://github.com/dickpepperfield"
 [[author.links]]
-gitlab = "https://gitlab.com/pepperfield"
-[[author.links]]
 linkedin = "https://www.linkedin.com/in/cjhallau"
 [[author.links]]
 discord = "https://discord.com/users/700950024523350048"
@@ -23,11 +21,11 @@ discord = "https://discord.com/users/700950024523350048"
 unsafe = true
 [markup.highlight]
 noClasses = false
-[[menu.footer]]
-identifier = "site-analytics"
-name = "Site Analytics"
-url = "https://analytics.0x40.me/share/Xf425O0N/0x40-me"
-weight = 1
+# [[menu.footer]]
+# identifier = "site-analytics"
+# name = "Site Analytics"
+# url = "https://analytics.0x40.me/share/Xf425O0N/0x40-me"
+# weight = 1
 [[menu.footer]]
 identifier = "sitemap"
 name = "Sitemap"
@@ -37,12 +35,12 @@ weight = 2
 identifier = "IP"
 name = "My IP"
 target = "_blank"
-url = "http://ip.0x40.me"
+url = "http://ip.pooper.net.au"
 weight = 7
 [[menu.main]]
 identifier = "dig"
 name = "Dig"
-url = "https://dig.0x40.me"
+url = "https://dig.pooper.net.au"
 weight = 6
 [params]
 colorScheme = "avocado"
