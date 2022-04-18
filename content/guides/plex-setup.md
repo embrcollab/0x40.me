@@ -27,31 +27,17 @@ Enabling direct play is advisable for all Plex streams, when you lower the quali
 
 I'm attaching a few images that contain steps for a few clients, to enable maximum quality online streaming, which will prevent unnecessary [_transcoding_](https://en.wikipedia.org/wiki/Transcoding), and a better quality video on the device.
 
-### On the web
+### Follow the links below for visual help
 
----
+[On the web <i class="fas fa-external-link-alt"></i>](/images/1d8478ec-568d-4eb3-ae39-77793b6003d2.jpg)
 
-[![](/images/1d8478ec-568d-4eb3-ae39-77793b6003d2.jpg)](https://0x40.me/images/1d8478ec-568d-4eb3-ae39-77793b6003d2.jpg)
+[On a phone <i class="fas fa-external-link-alt"></i>](/images/9a8ac71d-a8b1-4d65-941c-2a82c7f22edf.jpg)
 
-### On a phone
+[On a TV <i class="fas fa-external-link-alt"></i>](/images/45cbee23-3515-4eed-9957-ccba144bb36b.jpg)
 
----
+[On a console <i class="fas fa-external-link-alt"></i>](/images/a93d509b-77c6-42c2-b43d-53b242c8810b.jpg)
 
-[![](/images/9a8ac71d-a8b1-4d65-941c-2a82c7f22edf.jpg)](https://0x40.me/images/9a8ac71d-a8b1-4d65-941c-2a82c7f22edf.jpg)
-
-### On a TV
-
----
-
-[![](/images/45cbee23-3515-4eed-9957-ccba144bb36b.jpg)](https://0x40.me/images/45cbee23-3515-4eed-9957-ccba144bb36b.jpg)
-
-### On a console
-
----
-
-[![](/images/a93d509b-77c6-42c2-b43d-53b242c8810b.jpg)](https://0x40.me/images/a93d509b-77c6-42c2-b43d-53b242c8810b.jpg)
-
-## Consider reading on
+## Donation information
 
 If you like what I do with poopernetplex ([https://plex.pooper.net.au](https://plex.pooper.net.au)), please consider reading on,
 

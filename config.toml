@@ -1,10 +1,10 @@
-baseURL = "https://0x40.me"
+baseURL = "https://pooper.net.au"
 defaultContentLanguage = "en"
 enableEmoji = true
 languageCode = "en-AU"
 summaryLength = 0
 theme = "congo"
-title = "0x40.me — @me"
+title = "pooper.net.au — @me"
 [author]
 bio = "Making content is hard."
 image = "images/author.png"
