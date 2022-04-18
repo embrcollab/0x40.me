@@ -34,7 +34,6 @@ weight = 2
 [[menu.main]]
 identifier = "IP"
 name = "My IP"
-target = "_blank"
 url = "http://ip.pooper.net.au"
 weight = 7
 [[menu.main]]
