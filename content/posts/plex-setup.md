@@ -37,6 +37,11 @@ I'm attaching a few images that contain steps for a few clients, to enable maxim
 
 [On a console <i class="fas fa-external-link-alt"></i>](/images/a93d509b-77c6-42c2-b43d-53b242c8810b.jpg)
 
+## Audiobooks
+
+Read this guide for Audiobook setup, make sure to let me know to invite you to the library.
+[Audiobook setup](/posts/plex-audiobook-setup/)
+
 ## Donation information
 
 If you like what I do with poopernetplex ([https://plex.pooper.net.au](https://plex.pooper.net.au)), please consider reading on,
