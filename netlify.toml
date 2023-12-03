@@ -36,7 +36,4 @@ status = 200
 
 [[redirects]]
 from = "/info"
-to = "https://pooper.net.au/guides/plex-setup/"
-status = 301
-force = false
-query = {path = ":path"}
+to = "/posts/plex-setup"
