@@ -1,0 +1,24 @@
+languageCode = "en-AU"
+languageName = "English (Australia)"
+languageDirection = "ltr"
+weight = 1
+
+title = "poopernet"
+copyright = "&copy; 2023 Congo contributors"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  mainSections = ["about"]
+  description = ""
+
+[author]
+  name = "pepperfield"
+  image = "img/author.jpg"
+  headline = "Making content is hard."
+  links = [
+    { email = "mailto:cameron@pooper.net.au" },
+    { github = "https://github.com/dickpepperfield" },
+    { linkedin = "https://www.linkedin.com/in/cjhallau" },
+    { discord = "https://discord.com/users/700950024523350048" },
+  ]
