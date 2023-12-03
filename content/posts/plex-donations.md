@@ -1,10 +1,10 @@
 ---
-title: Donations
+title: "Donations"
 date: 2022-01-06
-description: Donation information for y'all.
-slug: donations
-tags:
-  - plex
+draft: false
+description: "Donation information for y'all."
+slug: "plex-donations"
+tags: ["plex"]
 ---
 
 {{< lead >}}

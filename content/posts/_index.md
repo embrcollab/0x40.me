@@ -1,6 +1,6 @@
 ---
 title: Posts
-description: All new posts are shared here.
+description: Guides and cheatsheets.
 cascade:
   showDate: true
   showAuthor: false
@@ -8,11 +8,11 @@ cascade:
 menu:
   main:
     identifier: posts
-    weight: 3
+    weight: 4
 
 ---
 {{< lead >}}
-You'll find posts and other related information in this list, if you're looking for guides, go [here]({{< ref "guides/" >}}).
+Various guides and other random cheatsheets for mostly FOSS related things.
 {{< /lead >}}
 
 ---
