@@ -66,11 +66,11 @@ fingerprintAlgorithm = "sha256"
 [taxonomy]
   showTermCount = true
 
-[fathomAnalytics]
+#[fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
 
-[verification]
+#[verification]
   # google = ""
   # bing = ""
   # pinterest = ""
